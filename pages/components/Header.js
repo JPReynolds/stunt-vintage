@@ -1,16 +1,19 @@
-import Image from "next/image";
-import NavBar from "./NavBar";
+import HeaderSBF from "./HeaderSBF";
+
+import styles from "../../styles/Header.module.css";
 
 const Header = () => {
     return (
-        <div>
-            <Image 
-                src="/stunt.jpg"
-                alt="stunt"
-                width={450}
-                height={150}
-            />
-            <NavBar/>
+        <div className={styles["header-container"]}>
+            <p className={styles["header-offer"]}>20% off</p>
+            <div className={styles["header"]}>
+                <img 
+                    src="/stunt.jpg"
+                    alt="stunt"
+                    className={styles["img-stunt"]}
+                />
+                <HeaderSBF/>
+            </div>
         </div>
     )
 }

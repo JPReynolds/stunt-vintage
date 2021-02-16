@@ -1,4 +1,16 @@
 .nav {
     display: flex;
     list-style-type: none;
+    border: solid;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.nav-dropdown {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
 }
