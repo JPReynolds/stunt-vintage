@@ -4,8 +4,10 @@
 .header-offer {
     width: 100%;
     margin: 0;
+    padding-top: 3px;
+    height: 2em;
     text-align: center;
-    background-color: rgba(5, 102, 26, 0.822);
+    background-color: rgba(6, 90, 24, 0.651);
     color: white;
 }
 
@@ -30,5 +32,6 @@
 .img-stunt {
     grid-column-start: 2;
     justify-self: center;
-    height: 100px;
+    height: 75px;
+    margin: 10px;
 }

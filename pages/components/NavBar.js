@@ -10,7 +10,7 @@ const NavBar = () => {
     const selectedNavItem = useRef("");
 
     return (
-        <div>
+        <>
             <ul className={styles.nav}>
                 {NAV_ITEMS.map((item, index) => {
                     return (
@@ -27,7 +27,7 @@ const NavBar = () => {
                 })}
             </ul>
             {(isHovered || showDropdown) && <NavDropdown navItem={selectedNavItem} setShowDropdown={setShowDropdown} setIsHovered={setIsHovered}/>}
-        </div>
+        </>
     )
 }
 

@@ -9,10 +9,10 @@ const CarouselH = () => {
     }
     return (
         <Carousel activeIndex={index} onSelect={handleSelect} className="carousel">
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <img
                 className="d-block w-100 img-carousel"
-                src="/grey-square.jpg"
+                src="carousel-1.jpg"
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -20,10 +20,10 @@ const CarouselH = () => {
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <img
                 className="d-block w-100 img-carousel"
-                src="/grey-square.jpg"
+                src="carousel-2.jpg"
                 alt="Third slide"
                 />
                 <Carousel.Caption>
@@ -34,7 +34,7 @@ const CarouselH = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100 img-carousel"
-                src="/grey-square.jpg"
+                src="carousel-3.jpg"
                 alt="Third slide"
                 />
                 <Carousel.Caption>
@@ -42,7 +42,7 @@ const CarouselH = () => {
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-</Carousel>
+        </Carousel>
     )
 }
 

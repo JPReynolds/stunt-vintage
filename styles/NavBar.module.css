@@ -1,11 +1,24 @@
 .nav {
     display: flex;
-    list-style-type: none;
-    border: solid;
+    justify-content: center;
+    position: relative;
     margin: 0;
     padding: 0;
-    justify-content: space-evenly;
-    position: relative;
+    border-top: solid 1px rgba(182, 181, 181, 0.651);
+    border-bottom: solid 1px rgba(182, 181, 181, 0.651);
+}
+
+.nav > li {
+    padding: 5px 10px;
+    margin: 0px 10px;
+    font-size: small;
+    letter-spacing: 1px;
+}
+
+.nav > li:hover {
+    color: gray;
+    border-bottom: solid 2px;
+    cursor: pointer;
 }
 
 .nav-dropdown {
